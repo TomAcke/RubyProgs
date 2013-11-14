@@ -6,4 +6,4 @@ def fact(n)
 	end
 end
 
-puts fact(ARGV[0].to_i)
+puts fact(5)
