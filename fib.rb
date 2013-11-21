@@ -1,5 +1,12 @@
 def fib(n)
-	(((1+Math.sqrt(5))**n) - ((1-Math.sqrt(5))**n))/((2**n)*Math.sqrt(5))
+
+	 x = 1;
+	 y = 1;
+	 while x < n
+		 puts x
+		 y, x=x,x+y
+	 end
+		
 end
 
-puts fib(10)
+puts fib(ARGV[0].to_i)
